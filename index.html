@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width-device-width,
+        intial-scale-1.0">
+        <title>Home page</title>
+        <link rel="stylesheet" href="style.css">    
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <!--- main outer div --->
+        <div class="outer-container">
+
+            <!--- top-bar section ----->
+            <div class="top-bar">
+                <button> View Highschoores </button>
+                <p> timer: 00:00</p>
+            </div>
+
+            <!--- inner div ---->
+            <div class="inner-container">
+
+                <!----- main header/quiz intro ---->
+                <header class="quiz-intro">
+                    <h1> Welcome to the quiz</h1>
+                    <p> Try to answer the following code-related questions within the time limit. keep in mind that incorrect will penalize your score/time by ten seconds!</p>
+                    <button id="start-Btn">Start quiz!</button>
+                </header>
+
+                <!----- main quiz content -------->
+                <main id="question-container" >
+
+                    <section id="question" class="question screen">
+                        <h2> question here</h2>
+                        <ul >
+                            <li><button id="BTN" class="BTN">Answer 1</button></li>
+                            <li><button id="BTN" class="BTN">Answer 2</button></li>
+                            <li><button id="BTN" class="BTN">Answer 3</button></li>
+                            <li><button id="BTN" class="BTN">Answer 4</button></li>
+                        </ul>
+
+                    <sectionc  class="quiz-finish-screen">
+                        <h2> Quiz finished!</h2>
+                        <p> your Score: 00</p>
+
+
+                    <label for=""> Enter Initials:</label></form></label>
+                    <input type="text">
+                    <button> Summit</button>
+                    </section>
+
+
+                    <section class="highscore-screen">
+                        <h2 id="highschores">Highscores</h2>
+                        <ol>
+                            <li>Hr - 20</li>
+                            <li>Hr - 20</li>
+                            <li>Hr - 20</li>
+                            <li>Hr - 20</li>
+                        </ol>
+
+                    </section>
+                     
+                </main>
+            </div>
+
+        </div>
+    </body>
+</html>
